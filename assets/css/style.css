@@ -1,0 +1,178 @@
+
+body{
+    background: #D8DFE8;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background: #051931;
+    margin-bottom: 30px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo{
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.titulo{
+    text-align: center;
+    color: #FFFFFF;
+}
+.titulo:hover{ 
+    font-weight: 600;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 20px;
+}
+h1:hover{
+    font-weight: 600;
+}
+.titulo:hover{ 
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.text-area{
+    width: 700px;
+    height: 300px;
+    color: #0A3871;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+::placeholder { 
+    color: #0A3871;
+}
+.text-area:focus{
+    outline: none;
+}
+
+.mensagem{
+    width: 250px;
+    height: 450px;
+    background: #FFFFFF;
+    background-image: url("../../src/img/galeria/");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 20px;
+    margin-top: 492px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao{
+    color: #495057;
+    font-size: 18px;
+    margin-top: 125px;
+}
+
+.rodape{
+    background-color: #051931;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.copyrigth{
+    font-size: 13px;
+    font-weight: 100;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.contato{
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+p{
+    margin: 5px;
+}
+
+a{
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+li img:hover{
+    width: 30px;
+    transition: 1s all;
+}
+
+.redes-sociais{
+    text-align: center;
+    margin-left: 30px;
+}
