@@ -9,10 +9,26 @@ const mensagem = document.querySelector(".mensagem");
 // A letra "u" é convertida para "ufat"
 
 
+function backGround(){
+    let backGroundImage = "../src/img/galeria/boneco.png" ;
+    let backGroundColor = "#FFFFFF";
+
+    mensagem.style.backgroundImage = `url('${backGroundImage}')`;
+    mensagem.style.backgroundRepeat = "no-repeat";
+        if(mensagem.value !== ""){
+            mensagem.style.background = backGroundColor;
+        }
+
+}
+
+backGround();
+
 function btnEncriptar(){
+
     const textoEncriptado = encriptar(textArea.value);
     mensagem.value = textoEncriptado;
     textArea.value = "";
+    backGround();
 }
 
 function encriptar(stringEncriptada) {
@@ -34,6 +50,7 @@ function btnDesencriptar() {
     const textoDesencriptado = desencriptar(textArea.value);
     mensagem.value = textoDesencriptado;
     textArea.value = "";
+    backGround();
 }
 
 function desencriptar(stringDesencriptada) {
