@@ -41,11 +41,12 @@ h1:hover{
 .titulo:hover{ 
     font-weight: 600;
 }
-
 main{
     display: flex;
+    justify-content:center;
+    align-content: center;
     margin-bottom: 50px;
-    margin-left: 150px;
+    margin-right: 250px;
 }
 
 .text-area{
